@@ -33,4 +33,4 @@ function countDown() {
     + minutes + 'minutes' +  ' ' + seconds + 'seconds'
 }
 
-setInterval(countDown, second)
+timerId = setInterval(countDown, second)
