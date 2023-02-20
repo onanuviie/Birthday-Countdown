@@ -19,7 +19,7 @@ function countDown() {
     }
 
     else if (timeSpan <= 0) {
-        timeLeft.innerHTML = "Happy Birthday!!! I Love You So Much And I'm Happy You Found A Way Into My Life :)"
+        timeLeft.innerHTML = "Happy Birthday!!! I Love You So Much, Thank You For Finding Your Way Into My Life :)"
         clearInterval(timerId)
         return
     }
